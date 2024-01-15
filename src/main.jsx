@@ -7,6 +7,8 @@ import Navbar from './route/navbar'
 import Footer from './route/footer'
 import Category from './route/category'
 import DetailToko from './route/toko'
+import Login from './route/login'
+import Register from './route/register'
 import './index.css'
 import List from './route/list-toko'
 import {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: "/detail-toko",
     element: <DetailToko/>,
+  },
+  {
+    path: "/login",
+    element: <Login/>,
+  },
+  {
+    path: "/register",
+    element: <Register/>,
   },
 ]);
 
