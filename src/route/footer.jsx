@@ -60,7 +60,7 @@ export default function Footer(){
                             </h1>
                             <ul className="flex flex-col mt-auto justify-between">
                                 <li className="my-3">
-                                    <a href="">Info Kami</a>
+                                    <a href="/about">Info Saya</a>
                                 </li>
                                 <li className="my-3">
                                     <a href="">Grup Kami</a>

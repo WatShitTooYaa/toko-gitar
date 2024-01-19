@@ -3,6 +3,9 @@ import "../assets/img.css"
 export default function Home(){
     return(
         <div className="relative border-xl min-h-[300px] mt-14 border-black border-b-[1px]">
+            {/* <div className="border border-black w-10 h-10">
+
+            </div> */}
             {/* <div className=""> */}
                 {/* Gambar */}
                 <img className="border w-full" src="../../asset/poster/poster.png" alt="" />
@@ -53,7 +56,7 @@ export default function Home(){
             <div>
                 <ul className=" flex flex-row w-full justify-around">
                     <div className="w-1/5">
-                        <img src="../../asset/gitar/gibson_les.jpg" className="w-full" alt="" />
+                        <img src="../../asset/alat/gitar/gibson_les.jpg" className="w-full" alt="" />
                         <div className="text-[20px] italic">
                             Gitar Gibson Less Paul Gold Edition
                         </div>
@@ -62,7 +65,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-1/5">
-                        <img src="../../asset/gitar/gibson_les.jpg" className="w-full" alt="" />
+                        <img src="../../asset/alat/gitar/gibson_les.jpg" className="w-full" alt="" />
                         <div className="text-[20px] italic">
                             Gitar Gibson Less Paul Gold Edition
                         </div>
@@ -71,7 +74,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-1/5">
-                        <img src="../../asset/gitar/gibson_les.jpg" className="w-full" alt="" />
+                        <img src="../../asset/alat/gitar/gibson_les.jpg" className="w-full" alt="" />
                         <div className="text-[20px] italic">
                             Gitar Gibson Less Paul Gold Edition
                         </div>
@@ -80,7 +83,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-1/5">
-                        <img src="../../asset/gitar/gibson_les.jpg" className="w-full" alt="" />
+                        <img src="../../asset/alat/gitar/gibson_les.jpg" className="w-full" alt="" />
                         <div className="text-[20px] italic">
                             Gitar Gibson Less Paul Gold Edition
                         </div>
@@ -92,7 +95,7 @@ export default function Home(){
             </div>
 
             <div className="flex justify-center m-20">
-                <button className="border-2 border-black tetx-[2vw] p-3 ">Lihat Semua Produk</button>
+                <a href="/products" className="border-2 border-black tetx-[2vw] p-3 ">Lihat Semua Produk</a>
             </div>
         </div>
     )
